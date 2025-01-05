@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دورة CSS - اليوم الأول</title>
+
+  <!-- ربط CSS داخل صفحة HTML -->
+  <style>
+    /* تنسيق جسم الصفحة */
+    body {
+      font-family: 'Arial', sans-serif; /* تغيير الخط */
+      background-color: #f0f8ff; /* خلفية فاتحة */
+      margin: 0;
+      padding: 0;
+      text-align: center; /* محاذاة النص إلى المنتصف */
+    }
+
+    /* تنسيق العنوان (id) */
+    #main-title {
+      color: #079f09; /* لون العنوان */
+      font-size: 36px; /* حجم الخط */
+      font-weight: bold; /* جعل الخط عريض */
+      margin-top: 50px; /* مسافة من الأعلى */
+    }
+
+    /* تنسيق الفقرات باستخدام class */
+    .content-text {
+      color: #ff4500; /* لون النص */
+      font-size: 18px; /* حجم الخط */
+      line-height: 1.6; /* ارتفاع السطر */
+    }
+
+    /* تنسيق صورة الخلفية */
+    .background-image {
+      background-image: url('https://example.com/background.jpg'); /* إضافة صورة خلفية */
+      background-size: cover; /* جعل الصورة تغطي كامل العنصر */
+      height: 300px; /* تحديد ارتفاع الصورة */
+      color: white; /* لون النص داخل العنصر */
+      text-align: center; /* محاذاة النص في المنتصف */
+      padding-top: 100px; /* مسافة من الأعلى داخل العنصر */
+    }
+
+    /* تنسيق الروابط */
+    a {
+      color: #4682b4; /* لون الرابط */
+      text-decoration: none; /* إزالة التسطير */
+      font-size: 20px; /* حجم الخط */
+    }
+
+    a:hover {
+      color: #ff6347; /* تغيير اللون عند التمرير على الرابط */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- العنوان باستخدام id -->
+  <h1 id="main-title">CSS - اليوم الأول: تعلم الأساسيات</h1>
+
+  <!-- فقرة باستخدام class -->
+  <p class="content-text">مرحبًا! في هذا الدرس، سنتعلم كيف نربط CSS بـ HTML، استخدام المحددات (id و class)، وتنسيق النصوص والألوان.</p>
+
+  <!-- فقرة مع نص مختلف -->
+  <p class="content-text">CSS يمكن أن تساعدنا في التحكم في تنسيق النصوص، الألوان، الخلفيات، والمحاذاة. دعونا نطبق هذه المفاهيم في هذا المثال!</p>
+
+  <!-- عنصر يحتوي على صورة خلفية -->
+  <div class="background-image">
+    <h2>خلفية مع صورة</h2>
+  </div>
+
+  <!-- رابط مع تنسيق خاص -->
+  <a href="https://www.example.com">زيارة الموقع</a>
+</body>
+</html>
